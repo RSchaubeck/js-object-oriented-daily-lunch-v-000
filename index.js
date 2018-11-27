@@ -34,11 +34,11 @@ class Meal {
     store.meals.push(this);
   }
   static byPrice() {
-    let arr = [];
     for(let i = 0; i < store.meals.length; i++) {
-      arr.push(store.meals[i]);
+      store.sort(function (a,b) {
+        return a.meals[i].price - b.meals[++i].price;
+      });
     }
-    console.log(arr[1].price);
   }
 }
 
