@@ -36,7 +36,7 @@ class Meal {
   static byPrice() {
     let i = 0;
     store.sort(function(a, b) {
-      return a.meals - b.meals;
+      return a.meals[i++].price - b.meals[++i].price;
     });
   }
 }
