@@ -19,7 +19,7 @@ class Customer {
       this.neighborhoodId = neighborhood.id;
     }
 
-    store.
+    store.customers.push(this);
   }
 }
 
