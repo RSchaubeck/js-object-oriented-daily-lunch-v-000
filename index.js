@@ -34,10 +34,10 @@ class Meal {
     store.meals.push(this);
   }
   static byPrice() {
-    console.log(store.meals[0]);
-    let i = 0;
+    console.log(store.meals[]);
+    let x = 0;
     store.sort(function(a, b) {
-      return a.meals[i++].price - b.meals[++i].price;
+      return a.meals[x++].price - b.meals[++x].price;
     });
 
   }
