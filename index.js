@@ -1,4 +1,4 @@
-let store = { deliveries: [], meals: [], customer: [], employees: []}
+let store = { deliveries: [], meals: [], customer: []}
 
 let neighborhoodId = 0;
 
