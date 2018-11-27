@@ -1,4 +1,4 @@
-let store = { deliveries: [], meals: [], customer: []}
+let store = { deliveries: [], meals: [], customer: [], employers: []}
 
 let neighborhoodId = 0;
 
@@ -32,7 +32,7 @@ class Meal {
     store.meals.push(this);
   }
   static byPrice() {
-    store.sort(function(a,b) {
+    store.meals.sort(function(a,b) {
       return a - b;
     })
   }
@@ -49,4 +49,14 @@ class Delivery {
 
     store.deliveries.push(this);
   }
+}
+
+let employerId = 0;
+
+class Employer {
+  constructor(name) {
+    this.id = ++employerId;
+    this.name = name;
+
+    store.
 }
