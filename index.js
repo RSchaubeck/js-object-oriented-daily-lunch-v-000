@@ -34,8 +34,8 @@ class Meal {
     store.meals.push(this);
   }
   static byPrice() {
-    console.log(store.meals.length);
-    let x = 0;
+    console.log(x);
+    let x = store.meals.length;
     store.sort(function(a, b) {
       return a.meals[x++].price - b.meals[++x].price;
     });
