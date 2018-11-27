@@ -34,7 +34,8 @@ class Meal {
     store.meals.push(this);
   }
   static byPrice() {
-    console.log(store.meals[0]);
+
+    console.log(store.meals.length);
   }
 }
 
