@@ -1,4 +1,4 @@
-let store = { deliveries: [], meals: [], customer: []}
+let store = { deliveries: [], meals: [], customer: [], employees: []}
 
 let neighborhoodId = 0;
 
@@ -59,4 +59,5 @@ class Employer {
     this.name = name;
 
     store.employees.push(this);
+  }
 }
