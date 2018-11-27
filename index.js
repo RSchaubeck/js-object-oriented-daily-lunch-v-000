@@ -37,10 +37,11 @@ class Meal {
 
     let x = store.meals.length;
     console.log(x);
-    store.sort(function(a, b) {
-      return a.meals[x--].price - b.meals[--x].price;
-    });
-
+    while (x > 0) {
+      store.sort(function(a, b) {
+        return a.meals[x--].price - b.meals[--x].price;
+      });
+    }
   }
 }
 
