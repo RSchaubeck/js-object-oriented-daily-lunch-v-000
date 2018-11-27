@@ -31,6 +31,11 @@ class Meal {
 
     store.meals.push(this);
   }
+  byPrice() {
+    store.meals.price.sort(function(a,b) {
+      return a - b;
+    })
+  }
 }
 
 let deliveryId = 0;
