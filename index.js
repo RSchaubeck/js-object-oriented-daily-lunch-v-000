@@ -34,7 +34,7 @@ class Meal {
     store.meals.push(this);
   }
   static byPrice() {
-    let mealKeys = Object.keys(store);
+    let mealKeys = Object.keys(store["meals"]);
     console.log(mealKeys);
   }
 }
