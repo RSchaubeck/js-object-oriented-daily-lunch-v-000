@@ -7,20 +7,22 @@ class Neighborhood {
   }
 }
 
+let customerId = 0;
+
 class Customer {
-  constructor() {
-    
+  constructor(name, neighborhood) {
+    this.id = ++customerId
   }
 }
 
 class Meal {
   constructor() {
-    
+
   }
 }
 
 class Delivery {
   constructor () {
-    
+
   }
 }
