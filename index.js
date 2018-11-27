@@ -1,4 +1,4 @@
-let store = { deliveries: [], meals: [], customers: [], employers: []}
+let store = [{ deliveries: [], meals: [], customers: [], employers: []}]
 
 let neighborhoodId = 0;
 
@@ -34,11 +34,9 @@ class Meal {
     store.meals.push(this);
   }
   static byPrice() {
-    for(let i = 0; i < store.meals.length; i++) {
-      store.sort(function (a,b) {
-        return a.meals[i].price - b.meals[++i].price;
-      });
-    }
+    store.sort(function (a, b) {
+      return a.
+    })
   }
 }
 
