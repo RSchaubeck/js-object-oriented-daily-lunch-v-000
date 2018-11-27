@@ -34,11 +34,12 @@ class Meal {
     store.meals.push(this);
   }
   static byPrice() {
+    comsole.log(store.meals);
     let i = 0;
     store.sort(function(a, b) {
       return a.meals[i++].price - b.meals[++i].price;
     });
-    comsole.log(store.meals);
+    
   }
 }
 
