@@ -38,7 +38,9 @@ class Meal {
     for(let i = 0; i < store.meals.length; i++) {
       arr.push(store.meals[i]);
     }
-    console.log(arr);
+    arr.sort(function(a,b) {
+      return a - b;
+    })
   }
 }
 
