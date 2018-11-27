@@ -32,7 +32,7 @@ class Meal {
     store.meals.push(this);
   }
   static byPrice() {
-    store.meals.sort(function(a,b) {
+    store.sort(function(a,b) {
       return a - b;
     })
   }
