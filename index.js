@@ -1,3 +1,5 @@
+let store = { deliveries: [], meals: [], customer: []}
+
 let neighborhoodId = 0;
 
 class Neighborhood {
@@ -36,6 +38,6 @@ class Delivery {
     this.id = ++deliveryId;
     this.mealId = mealId;
     this.neighborhoodId = neighborhoodId;
-    this.customerId = customerId; 
+    this.customerId = customerId;
   }
 }
