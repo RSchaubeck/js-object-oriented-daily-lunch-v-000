@@ -34,9 +34,9 @@ class Meal {
     store.meals.push(this);
   }
   static byPrice() {
-    let arr = 0;
-    for(let i = 0; i < gifts.length; i++) {
-
+    let arr = [];
+    for(let i = 0; i < store.meals.length; i++) {
+      arr.push(store.meals[i]);
     }
   }
 }
