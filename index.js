@@ -35,11 +35,9 @@ class Meal {
   }
   static byPrice() {
     let mealKeysArr = Object.keys(store.meals);
-    mealKeysArr.forEach(meal) {
-      store.meal.price.sort(function(a,b) {
-        return a - b;
-      })
-    }
+    store.meals.price.sort(function(a,b) {
+      return a - b;
+    })
   }
 }
 
