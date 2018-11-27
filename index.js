@@ -34,7 +34,7 @@ class Meal {
     store.meals.push(this);
   }
   static byPrice() {
-    let mealKeysArr = Object.keys(store.meals);
+    let mealKeys = Object.keys(store.meals);
     store.meals.price.sort(function(a,b) {
       return a - b;
     })
