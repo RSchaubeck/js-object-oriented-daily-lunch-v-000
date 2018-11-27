@@ -1,4 +1,4 @@
-let store = { deliveries: [], meals: [], customer: [], employers: []}
+let store = { deliveries: [], meals: [], customers: [], employers: []}
 
 let neighborhoodId = 0;
 
@@ -18,6 +18,8 @@ class Customer {
     if(neighborhood) {
       this.neighborhoodId = neighborhood.id;
     }
+
+    store.
   }
 }
 
