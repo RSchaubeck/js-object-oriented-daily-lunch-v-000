@@ -6,3 +6,21 @@ class Neighborhood {
     this.name = name;
   }
 }
+
+class Customer {
+  constructor() {
+    
+  }
+}
+
+class Meal {
+  constructor() {
+    
+  }
+}
+
+class Delivery {
+  constructor () {
+    
+  }
+}
